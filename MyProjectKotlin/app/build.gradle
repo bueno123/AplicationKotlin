@@ -47,4 +47,6 @@ dependencies {
 
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
+    implementation 'org.jetbrains.anko:anko-common:0.10.8'
+
 }

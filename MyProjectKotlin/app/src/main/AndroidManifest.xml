@@ -3,6 +3,7 @@
     package="com.example.myprojectkotlin">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".views.MainActivityFriendsRecycler"></activity>
+        <activity android:name=".views.MainActivityCommentsRecycler"></activity>
+        <activity android:name=".views.MainActivityComments" />
+        <activity android:name=".views.MainActivityFriendsRecycler" />
         <activity android:name=".views.MainActivityFriends" />
         <activity android:name=".views.MainActivityFeedRecycler" />
         <activity android:name=".views.MainActivityFeed" />

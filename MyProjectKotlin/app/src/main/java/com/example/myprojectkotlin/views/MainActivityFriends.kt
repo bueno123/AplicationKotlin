@@ -1,12 +1,11 @@
 package com.example.myprojectkotlin.views
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.aplicationkotlin01.adapters.ReyclerAdapterPosts
-import com.example.aplicationkotlin01.netWork.RepositoryPosts
-import com.example.aplicationkotlin01.netWork.UserResponsePosts
 import com.example.myprojectkotlin.R
 import com.example.myprojectkotlin.adapters.ReyclerAdapterUsers
 import com.example.myprojectkotlin.netWork.RepositoryUsers
@@ -18,7 +17,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import retrofit2.HttpException
-import java.util.ArrayList
+import java.util.*
+
 
 class MainActivityFriends : AppCompatActivity(), ReyclerAdapterUsers.PostHolder.OnAdapterListener {
 
@@ -36,6 +36,7 @@ class MainActivityFriends : AppCompatActivity(), ReyclerAdapterUsers.PostHolder.
         recyclerViewPost.adapter = adapter
 
         callServiceUSers()
+
     }
 
     private fun callServiceUSers() {
@@ -65,8 +66,13 @@ class MainActivityFriends : AppCompatActivity(), ReyclerAdapterUsers.PostHolder.
     }
 
     override fun onItemClickListener(item: UserResposeUsers) {
+        ///makeCall(item.phone)
         Toast.makeText(this, "Email: ${item.email} \nPhone: ${item.phone}", Toast.LENGTH_LONG).show()
         val postString : String = Gson().toJson(item, UserResposeUsers::class.java)
         val post : UserResposeUsers = Gson().fromJson(postString, UserResposeUsers::class.java)
+
+        intent = Intent(Intent.ACTION_CALL, Uri.parse("${item.phone}"))
+        startActivity(intent)
     }
+
 }

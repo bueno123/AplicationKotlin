@@ -1,5 +1,6 @@
 package com.example.myprojectkotlin.views
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -9,6 +10,7 @@ import com.example.aplicationkotlin01.netWork.RepositoryPosts
 import com.example.aplicationkotlin01.netWork.UserResponsePosts
 import com.example.myprojectkotlin.R
 import com.google.gson.Gson
+import kotlinx.android.synthetic.main.activity_main_feed.*
 import kotlinx.android.synthetic.main.activity_main_feed_recycler.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -35,6 +37,7 @@ class MainActivityFeed : AppCompatActivity(), ReyclerAdapterPosts.PostHolder.OnA
         recyclerViewPost.adapter = adapter
 
         callServicePosts()
+
     }
 
 
@@ -65,7 +68,12 @@ class MainActivityFeed : AppCompatActivity(), ReyclerAdapterPosts.PostHolder.OnA
     }
 
     override fun onItemClickListener(item: UserResponsePosts) {
-        Toast.makeText(this, "${item.username} tiene ${item.likes} likes", Toast.LENGTH_LONG).show()
+
+        imageButtonFeed.setOnClickListener{view ->
+            intent = Intent(this, MainActivityComments::class.java)
+            startActivity(intent)
+        }
+        //Toast.makeText(this, "${item.username} tiene ${item.likes} likes", Toast.LENGTH_LONG).show()
         val postString : String = Gson().toJson(item, UserResponsePosts::class.java)
         val post : UserResponsePosts = Gson().fromJson(postString, UserResponsePosts::class.java)
     }

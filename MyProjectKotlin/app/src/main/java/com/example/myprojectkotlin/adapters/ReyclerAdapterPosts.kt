@@ -68,12 +68,8 @@ RecyclerView.Adapter<ReyclerAdapterPosts.PostHolder>() {
                 Toast.makeText(v.context, "Item", Toast.LENGTH_SHORT).show()
             }
         }
-
         interface OnAdapterListener {
             fun onItemClickListener( item: UserResponsePosts)
         }
-
     }
-
-
 }

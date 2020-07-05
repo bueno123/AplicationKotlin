@@ -1706,14 +1706,17 @@ id hybrid
 id icon
 id icon_group
 id icon_only
+id idcallfriends
 id ifRoom
 id image
 id imageButtonFeed
 id imageButtonFriends
 id imageButtonUsers
 id imageView2
+id imagenusercomment
 id imagenuserloggin
 id info
+id infocomment
 id infocommnent
 id infofriends
 id infopersons
@@ -1957,6 +1960,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_main_comments
+layout activity_main_comments_recycler
 layout activity_main_feed
 layout activity_main_feed_recycler
 layout activity_main_friends
