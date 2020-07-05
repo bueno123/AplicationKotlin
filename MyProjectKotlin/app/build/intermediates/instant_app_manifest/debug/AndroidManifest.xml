@@ -30,6 +30,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.myprojectkotlin.views.MainActivityFriendsRecycler" />
+        <activity android:name="com.example.myprojectkotlin.views.MainActivityFriends" />
         <activity android:name="com.example.myprojectkotlin.views.MainActivityFeedRecycler" />
         <activity android:name="com.example.myprojectkotlin.views.MainActivityFeed" />
         <activity android:name="com.example.myprojectkotlin.views.MainActivity" >

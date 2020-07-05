@@ -83,4 +83,5 @@
     <color name="colorBlueGrey500">#607d8b</color>
     <color name="colorBlueGrey900">#263238</color>
     <color name="colorBlueGrey700">#455a64</color>
+    <color name="colorBlueGrey50">#ECEFF1</color>
 </resources>

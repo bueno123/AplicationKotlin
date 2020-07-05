@@ -813,6 +813,7 @@ color colorAmberA700
 color colorBlue500
 color colorBlue900
 color colorBlueA700
+color colorBlueGrey50
 color colorBlueGrey500
 color colorBlueGrey700
 color colorBlueGrey900
@@ -1123,6 +1124,7 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen constraintfriends
 dimen default_dimension
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
@@ -1495,6 +1497,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable constraintradius
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1712,6 +1715,7 @@ id imageView2
 id imagenuserloggin
 id info
 id infocommnent
+id infofriends
 id infopersons
 id invisible
 id italic
@@ -1955,6 +1959,8 @@ layout abc_tooltip
 layout activity_main
 layout activity_main_feed
 layout activity_main_feed_recycler
+layout activity_main_friends
+layout activity_main_friends_recycler
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

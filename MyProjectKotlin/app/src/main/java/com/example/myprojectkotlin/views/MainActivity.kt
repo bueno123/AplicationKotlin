@@ -28,6 +28,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        imageButtonFriends.setOnClickListener{ view ->
+            intent = Intent(this, MainActivityFriends::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun callService() {

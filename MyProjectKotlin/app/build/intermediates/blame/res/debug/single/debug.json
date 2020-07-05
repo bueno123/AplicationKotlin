@@ -8,20 +8,24 @@
         "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\layout\\activity_main_feed.xml"
     },
     {
+        "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_friends.xml.flat",
+        "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\layout\\activity_main_friends.xml"
+    },
+    {
         "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_iconusers.xml.flat",
         "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\drawable-anydpi\\ic_action_iconusers.xml"
     },
     {
-        "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layoutradius.xml.flat",
+        "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\drawable\\layoutradius.xml"
     },
     {
         "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_name.png.flat",
         "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
     },
     {
-        "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layoutradius.xml.flat",
-        "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\drawable\\layoutradius.xml"
+        "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_iconfeed.png.flat",
@@ -78,6 +82,10 @@
     {
         "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_constraintradius.xml.flat",
+        "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\drawable\\constraintradius.xml"
     },
     {
         "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_user.xml.flat",
@@ -182,6 +190,10 @@
     {
         "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_friends_recycler.xml.flat",
+        "source": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\src\\main\\res\\layout\\activity_main_friends_recycler.xml"
     },
     {
         "merged": "C:\\Users\\cbuenoch\\AndroidStudioProjects\\ExamenKotlin\\MyProjectKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",

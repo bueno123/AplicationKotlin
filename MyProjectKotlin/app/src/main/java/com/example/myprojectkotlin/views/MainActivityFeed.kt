@@ -65,7 +65,7 @@ class MainActivityFeed : AppCompatActivity(), ReyclerAdapterPosts.PostHolder.OnA
     }
 
     override fun onItemClickListener(item: UserResponsePosts) {
-        Toast.makeText(this, "Click item ${item.username}", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "${item.username} tiene ${item.likes} likes", Toast.LENGTH_LONG).show()
         val postString : String = Gson().toJson(item, UserResponsePosts::class.java)
         val post : UserResponsePosts = Gson().fromJson(postString, UserResponsePosts::class.java)
     }
