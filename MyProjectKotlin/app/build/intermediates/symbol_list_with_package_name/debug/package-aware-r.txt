@@ -203,6 +203,10 @@ attr chipStrokeWidth
 attr chipStyle
 attr chipSurfaceColor
 attr circleCrop
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -1013,6 +1017,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color standarapp
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1102,12 +1107,15 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
+dimen app_bar_height
 dimen appcompat_dialog_background_inset
 dimen browser_actions_context_menu_max_width
 dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
+dimen comment_imageview
+dimen comment_item_textsize
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -1164,9 +1172,14 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen feed_description
+dimen feed_username
+dimen friends_image_dimen
+dimen friends_item_name_textsize
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -1177,6 +1190,12 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen item_width
+dimen layout_normal_radius
+dimen layout_radius
+dimen margin_comment_item_row
+dimen margin_horizontal_base
+dimen margin_profile_social_metrics
 dimen material_emphasis_disabled
 dimen material_emphasis_high_type
 dimen material_emphasis_medium
@@ -1342,11 +1361,17 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen profile_margin_vertical
+dimen profile_social_text_size
+dimen profile_tags
+dimen profile_title_size
+dimen separator_height
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
 dimen test_mtrl_calendar_day_cornerSize
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1478,6 +1503,15 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_action_carpet
+drawable ic_action_email
+drawable ic_action_gps
+drawable ic_action_iconcomments
+drawable ic_action_iconfeed
+drawable ic_action_iconfriends
+drawable ic_action_iconusers
+drawable ic_action_name
+drawable ic_action_user
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
@@ -1491,6 +1525,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable layoutradius
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1596,7 +1631,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id button
 id buttonPanel
 id cancel_action
 id cancel_button
@@ -1615,6 +1649,11 @@ id clip_vertical
 id collapseActionView
 id confirm_button
 id container
+id container_email
+id container_location
+id container_occupation
+id container_social_metrics
+id container_years
 id content
 id contentPanel
 id coordinator
@@ -1666,10 +1705,18 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageButtonFeed
+id imageButtonFriends
+id imageButtonUsers
+id imageView2
+id imagenuserloggin
 id info
+id infocommnent
+id infopersons
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id iv_feed_item_like
 id labeled
 id largeLabel
 id left
@@ -1730,9 +1777,11 @@ id password_toggle
 id peekHeight
 id percent
 id pin
+id profile_main
 id progress_circular
 id progress_horizontal
 id radio
+id recyclerViewPost
 id right
 id right_icon
 id right_side
@@ -1803,9 +1852,22 @@ id textSpacerNoTitle
 id textStart
 id text_input_end_icon
 id text_input_start_icon
+id textcantfriends
+id textcantlikes
+id textcantposts
+id textcantshares
+id textcarpet
+id textemail
+id textfeeds
+id textgps
+id texticonfriends
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id textnameuser
+id textprofilelikes
+id textprofileusers
+id textuseryear
 id time
 id title
 id titleDividerNoCustom
@@ -1891,6 +1953,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_main_feed
+layout activity_main_feed_recycler
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -1998,6 +2062,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_settings
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2005,7 +2070,9 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string civ_transition
 string clear_text_end_icon_content_description
+string comment_item_example
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -2025,11 +2092,24 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string error_icon_content_description
+string et_username
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string feed_description
+string feed_item_comment
+string feed_item_like
+string feed_username
+string first_fragment_label
+string hello_first_fragment
+string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string item_detail_apellido_usuario
+string item_detail_direccion_usuario
+string item_detail_dni_usuario
+string item_detail_nombre_usuario
+string item_detail_nombre_usuario_example
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix
@@ -2064,11 +2144,22 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string next
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string previous
+string profile_email
+string profile_location
+string profile_occupation
+string profile_social_friends
+string profile_social_likes
+string profile_social_metrics
+string profile_social_posts
+string profile_social_shares
+string profile_years
 string s1
 string s2
 string s3
@@ -2077,7 +2168,10 @@ string s5
 string s6
 string s7
 string search_menu_title
+string second_fragment_label
 string status_bar_notification_info_overflow
+string text_login_button
+string title_activity_second
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -2782,6 +2876,7 @@ styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

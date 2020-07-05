@@ -6,6 +6,7 @@
 
     <color name="colorblack">#000000</color>
     <color name="colorwhite">#FFFF</color>
+    <color name="standarapp">#0B7966</color>
 
     <color name="colorRed500">#F44336</color>
     <color name="colorRed900">#B71C1C</color>

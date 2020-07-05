@@ -2,22 +2,376 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/standarapp">
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="209dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="199dp"
-        android:text="Button"
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagenuserloggin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="@color/colorGreen900"
+        app:civ_border_width="2dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textnameuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenuserloggin" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411dp"
+        android:layout_height="465dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/layoutradius"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textnameuser"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/container_social_metrics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_profile_social_metrics"
+                android:layout_marginEnd="@dimen/margin_profile_social_metrics"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_social_likes"
+                    android:textColor="@color/colorblack"
+                    android:textSize="@dimen/profile_social_text_size" />
+
+                <TextView
+                    android:id="@+id/textcantlikes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_social_metrics"
+                    android:textColor="@color/standarapp"
+                    android:textSize="@dimen/profile_social_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="@dimen/separator_height"
+                android:background="@color/standarapp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_profile_social_metrics"
+                android:layout_marginEnd="@dimen/margin_profile_social_metrics"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_social_posts"
+                    android:textColor="@color/colorblack"
+                    android:textSize="@dimen/profile_social_text_size" />
+
+                <TextView
+                    android:id="@+id/textcantposts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_social_metrics"
+                    android:textColor="@color/standarapp"
+                    android:textSize="@dimen/profile_social_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="@dimen/separator_height"
+                android:background="@color/standarapp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_profile_social_metrics"
+                android:layout_marginEnd="@dimen/margin_profile_social_metrics"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_social_shares"
+                    android:textColor="@color/colorblack"
+                    android:textSize="@dimen/profile_social_text_size" />
+
+                <TextView
+                    android:id="@+id/textcantshares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_social_metrics"
+                    android:textColor="@color/standarapp"
+                    android:textSize="@dimen/profile_social_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="@dimen/separator_height"
+                android:background="@color/standarapp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_profile_social_metrics"
+                android:layout_marginEnd="@dimen/margin_profile_social_metrics"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_social_friends"
+                    android:textColor="@color/colorblack"
+                    android:textSize="@dimen/profile_social_text_size" />
+
+                <TextView
+                    android:id="@+id/textcantfriends"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_social_metrics"
+                    android:textColor="@color/standarapp"
+                    android:textSize="@dimen/profile_social_text_size" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_years"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/profile_margin_vertical"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/container_social_metrics">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_user" />
+
+            <TextView
+                android:id="@+id/textuseryear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/profile_years"
+                android:textColor="@color/colorblack"
+                android:textSize="@dimen/profile_tags" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/profile_margin_vertical"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/container_years">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_email" />
+
+            <TextView
+                android:id="@+id/textemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/profile_email"
+                android:textColor="@color/colorblack"
+                android:textSize="@dimen/profile_tags" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/profile_margin_vertical"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/container_email">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_gps" />
+
+            <TextView
+                android:id="@+id/textgps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/profile_location"
+                android:textColor="@color/colorblack"
+                android:textSize="@dimen/profile_tags" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_occupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/profile_margin_vertical"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/container_location">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_carpet" />
+
+            <TextView
+                android:id="@+id/textcarpet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/profile_occupation"
+                android:textColor="@color/colorblack"
+                android:textSize="@dimen/profile_tags" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="93dp"
+        android:background="@color/standarapp"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageButton
+                android:id="@+id/imageButtonUsers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/standarapp"
+                app:srcCompat="@drawable/ic_action_iconusers" />
+
+            <TextView
+                android:id="@+id/textprofileusers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Profile"
+                android:textAlignment="center"
+                android:textColor="@color/colorwhite"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageButton
+                android:id="@+id/imageButtonFeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/standarapp"
+                app:srcCompat="@drawable/ic_action_iconfeed" />
+
+            <TextView
+                android:id="@+id/textfeeds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Feed"
+                android:textAlignment="center"
+                android:textColor="@color/colorwhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageButton
+                android:id="@+id/imageButtonFriends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/standarapp"
+                app:srcCompat="@drawable/ic_action_iconfriends" />
+
+            <TextView
+                android:id="@+id/texticonfriends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Friends"
+                android:textAlignment="center"
+                android:textColor="@color/colorwhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+

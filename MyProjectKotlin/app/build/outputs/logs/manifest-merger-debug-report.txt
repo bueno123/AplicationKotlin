@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.core:core-ktx:1.3.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\eddd3afdd70de58f8cd62a2efe1aaa1b\jetified-core-ktx-1.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\3cbf517ba7e3687c73b950c88e49ed8a\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\e46f3e16fd8948e8e4c48c913cb404d3\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -13,6 +13,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\cbuenoch\.gradle
 MERGED from [com.google.android.gms:play-services-ads:19.2.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\f99724343d4f73e492107ae67abb863b\jetified-play-services-ads-19.2.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\7345f62f6933bfbfe70b0b6c644df5f1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\9360cf1367a704ccd74509b9c6640d83\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\5668cbd08c79480a4a52cc56dd159db5\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\886e4476c03278ff278fe7119e9dd90f\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-gass:19.2.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\937505adddc3b295cb270ed74e5831f0\jetified-play-services-gass-19.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\76fefaccbf4affdfc264e2900cedf306\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\a8b54ba69a14a304594292b2740fdb5e\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:17:1-42:12
@@ -42,6 +44,7 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\cb
 MERGED from [androidx.core:core:1.3.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\8106c9afeb27cc0c50f85995740f877c\core-1.3.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\b37b2aeed146cfc3b1274c4cf21d4028\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\c97b0db2e77adb45592bee740aa5d495\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\3ddb30a84fce9b9b71aef55559a9328d\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\b741faf0c0e978004788a3922a8a438d\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\abca430f327a1ba4137054854d25dfd3\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -54,20 +57,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\cbuenoch\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\68a64a089b7f098f26bb791f76de8be0\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\24d5b49fe2b36ef44f901a0f8118cef3\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\2c421d217c8a928741ea7f5a2cd9695f\jetified-play-services-ads-base-19.2.0\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:2:11-69
@@ -82,13 +85,17 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:
 	android:name
 		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:7:5-25:19
+ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:7:5-27:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\3cbf517ba7e3687c73b950c88e49ed8a\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\3cbf517ba7e3687c73b950c88e49ed8a\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\0686ca90b872620e1e93c4a9f2d2181e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\0686ca90b872620e1e93c4a9f2d2181e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\7345f62f6933bfbfe70b0b6c644df5f1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\7345f62f6933bfbfe70b0b6c644df5f1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\5668cbd08c79480a4a52cc56dd159db5\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\5668cbd08c79480a4a52cc56dd159db5\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\886e4476c03278ff278fe7119e9dd90f\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\886e4476c03278ff278fe7119e9dd90f\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-gass:19.2.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\937505adddc3b295cb270ed74e5831f0\jetified-play-services-gass-19.2.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-gass:19.2.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\937505adddc3b295cb270ed74e5831f0\jetified-play-services-gass-19.2.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\76fefaccbf4affdfc264e2900cedf306\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
@@ -123,26 +130,34 @@ MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\cbue
 		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:13:9-40
-activity#com.example.myprojectkotlin.MainActivity
-ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:14:9-20:20
+activity#com.example.myprojectkotlin.views.MainActivityFeedRecycler
+ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:14:9-77
 	android:name
-		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:14:19-65
+activity#com.example.myprojectkotlin.views.MainActivityFeed
+ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:15:9-60
+	android:name
+		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:15:19-57
+activity#com.example.myprojectkotlin.views.MainActivity
+ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:16:19-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:20:27-74
 meta-data#com.google.android.gms.ads.AD_MANAGER_APP
-ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:22:9-24:35
+ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:24:9-26:36
 	android:value
-		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:24:13-33
+		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:26:13-33
 	android:name
-		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:23:13-69
+		ADDED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml:25:13-69
 uses-sdk
 INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\cbuenoch\AndroidStudioProjects\ExamenKotlin\MyProjectKotlin\app\src\main\AndroidManifest.xml
@@ -165,6 +180,10 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\cbuenoch
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\7345f62f6933bfbfe70b0b6c644df5f1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\9360cf1367a704ccd74509b9c6640d83\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\9360cf1367a704ccd74509b9c6640d83\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\5668cbd08c79480a4a52cc56dd159db5\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\5668cbd08c79480a4a52cc56dd159db5\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\886e4476c03278ff278fe7119e9dd90f\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\886e4476c03278ff278fe7119e9dd90f\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-gass:19.2.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\937505adddc3b295cb270ed74e5831f0\jetified-play-services-gass-19.2.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-gass:19.2.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\937505adddc3b295cb270ed74e5831f0\jetified-play-services-gass-19.2.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\76fefaccbf4affdfc264e2900cedf306\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
@@ -223,6 +242,8 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cbuenoch\.grad
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\b37b2aeed146cfc3b1274c4cf21d4028\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\c97b0db2e77adb45592bee740aa5d495\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\c97b0db2e77adb45592bee740aa5d495\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\3ddb30a84fce9b9b71aef55559a9328d\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\3ddb30a84fce9b9b71aef55559a9328d\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\b741faf0c0e978004788a3922a8a438d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\b741faf0c0e978004788a3922a8a438d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:20:5-44
@@ -279,6 +300,14 @@ ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\cbuenoch\
 		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\7345f62f6933bfbfe70b0b6c644df5f1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\7345f62f6933bfbfe70b0b6c644df5f1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\5668cbd08c79480a4a52cc56dd159db5\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\5668cbd08c79480a4a52cc56dd159db5\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\5668cbd08c79480a4a52cc56dd159db5\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\5668cbd08c79480a4a52cc56dd159db5\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\cbuenoch\.gradle\caches\transforms-2\files-2.1\a8b54ba69a14a304594292b2740fdb5e\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:29:9-33:64
 	android:exported
