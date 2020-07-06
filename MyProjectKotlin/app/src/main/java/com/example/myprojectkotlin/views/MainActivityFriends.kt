@@ -11,11 +11,14 @@ import com.example.myprojectkotlin.adapters.ReyclerAdapterUsers
 import com.example.myprojectkotlin.netWork.RepositoryUsers
 import com.example.myprojectkotlin.netWork.UserResposeUsers
 import com.google.gson.Gson
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main_feed_recycler.*
+import kotlinx.android.synthetic.main.activity_main_friends.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import org.jetbrains.anko.makeCall
 import retrofit2.HttpException
 import java.util.*
 
@@ -66,13 +69,12 @@ class MainActivityFriends : AppCompatActivity(), ReyclerAdapterUsers.PostHolder.
     }
 
     override fun onItemClickListener(item: UserResposeUsers) {
-        ///makeCall(item.phone)
+
         Toast.makeText(this, "Email: ${item.email} \nPhone: ${item.phone}", Toast.LENGTH_LONG).show()
         val postString : String = Gson().toJson(item, UserResposeUsers::class.java)
         val post : UserResposeUsers = Gson().fromJson(postString, UserResposeUsers::class.java)
 
-        intent = Intent(Intent.ACTION_CALL, Uri.parse("${item.phone}"))
-        startActivity(intent)
+        makeCall(item.phone)
     }
 
 }
