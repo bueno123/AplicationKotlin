@@ -1,5 +1,6 @@
 package com.example.myprojectkotlin.views
 
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -74,7 +75,18 @@ class MainActivityFriends : AppCompatActivity(), ReyclerAdapterUsers.PostHolder.
         val postString : String = Gson().toJson(item, UserResposeUsers::class.java)
         val post : UserResposeUsers = Gson().fromJson(postString, UserResposeUsers::class.java)
 
-        makeCall(item.phone)
+        makeCall("${item.phone}")
+    }
+
+    fun Context.makeCall(number: String): Boolean {
+        try {
+            val intent = Intent(Intent.ACTION_CALL, Uri.parse("tel:$number"))
+            startActivity(intent)
+            return true
+        } catch (e: Exception) {
+            e.printStackTrace()
+            return false
+        }
     }
 
 }
