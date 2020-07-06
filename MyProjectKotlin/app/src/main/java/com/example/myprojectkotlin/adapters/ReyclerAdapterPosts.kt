@@ -9,11 +9,15 @@ import android.widget.Toast
 import androidx.annotation.LayoutRes
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.example.aplicationkotlin01.netWork.Comments
 import com.example.aplicationkotlin01.netWork.UserResponsePosts
 import com.example.myprojectkotlin.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_main_feed.view.*
 import kotlinx.android.synthetic.main.activity_main_feed.view.*
+import kotlinx.android.synthetic.main.activity_main_feed.view.imagenuserloggin
+import kotlinx.android.synthetic.main.activity_main_friends.view.*
+import org.w3c.dom.Comment
 
 class ReyclerAdapterPosts (private var data: List<UserResponsePosts>, private val listener: PostHolder.OnAdapterListener) :
 RecyclerView.Adapter<ReyclerAdapterPosts.PostHolder>() {

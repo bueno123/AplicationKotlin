@@ -34,7 +34,7 @@
             android:layout_marginBottom="27dp"
             android:maxLines="1"
             android:singleLine="true"
-            android:text="username"
+            android:text="comments"
             android:textColor="@color/colorblack"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imagenusercomment"
