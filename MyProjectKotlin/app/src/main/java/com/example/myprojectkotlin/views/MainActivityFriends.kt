@@ -71,7 +71,7 @@ class MainActivityFriends : AppCompatActivity(), ReyclerAdapterUsers.PostHolder.
 
     override fun onItemClickListener(item: UserResposeUsers) {
 
-        Toast.makeText(this, "Email: ${item.email} \nPhone: ${item.phone}", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Para comunicarte con: ${item.name} \nLlamar al: ${item.phone}", Toast.LENGTH_LONG).show()
         val postString : String = Gson().toJson(item, UserResposeUsers::class.java)
         val post : UserResposeUsers = Gson().fromJson(postString, UserResposeUsers::class.java)
 
