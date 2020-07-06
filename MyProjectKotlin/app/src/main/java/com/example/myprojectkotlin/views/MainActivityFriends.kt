@@ -80,7 +80,7 @@ class MainActivityFriends : AppCompatActivity(), ReyclerAdapterUsers.PostHolder.
 
     fun Context.makeCall(number: String): Boolean {
         try {
-            val intent = Intent(Intent.ACTION_CALL, Uri.parse("tel:$number"))
+            val intent = Intent(Intent.ACTION_DIAL, Uri.fromParts("tel",number, null))
             startActivity(intent)
             return true
         } catch (e: Exception) {
